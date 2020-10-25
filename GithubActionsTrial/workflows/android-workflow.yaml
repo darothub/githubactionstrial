@@ -1,6 +1,4 @@
-# 1
-name: Android Example workflow
-# 2
+name: CI Workflow
 on: [push]
 jobs:
   build-and-test:
@@ -15,5 +13,4 @@ jobs:
           java-version: 1.8
       - name: Print contents in current directory
         run: ls -la
-      - name: Unit tests
-        run: ./gradlew testDebugUnitTest
+
