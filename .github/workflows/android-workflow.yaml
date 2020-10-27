@@ -1,7 +1,7 @@
 # 1
 name: Android Example workflow
 # 2
-on: [push]
+on: [push, pull_request]
 
 jobs:
   build-and-test:
