@@ -20,7 +20,7 @@ jobs:
         run: ls -la
         
       - name: Unit tests
-        run: ./gradlew testDebugUnitTest
+        run: ./gradlew test
         
       - name: Run instrumentation tests
         uses: reactivecircus/android-emulator-runner@v2
